@@ -1,0 +1,60 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1460px;
+
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.sup {
+    font-size: 120px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.05);
+}
+
+.sub {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+
+    transform: translateY(-200%);
+}
+
+
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/intro.scss";
+@import "blocks/about.scss";
+@import "blocks/social.scss";
+@import "blocks/course.scss";
+@import "blocks/sessions.scss";
+@import "blocks/masters.scss";
+@import "blocks/faq.scss";
+
+

@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    margin: 50px 0;
+
+    position: absolute;
+}
+
+.header__inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__btn {
+    color: #fff;
+    font-size: 19px;
+    padding: 15px 40px;
+
+    background-color: #707070;
+    border-radius: 25px;
+
+    transition: opacity .2s linear;
+
+    &:hover {
+        opacity: .7;
+    }
+}
