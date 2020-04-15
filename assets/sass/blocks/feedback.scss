@@ -1,0 +1,84 @@
+.feedback {
+    background-color: #000;
+    margin-bottom: 100px;
+}
+
+.feedback__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback__info {
+    width: 50%;
+
+    padding: 133px 0;
+
+    & ul {
+        display: block;
+        font-size: 20px;
+        color: #fff;
+
+        list-style: none;
+        padding-left: 0;
+
+        & li {
+            background: url("../img/feedback/check.svg") no-repeat left center;
+            background-size: contain;
+            padding-left: 50px;
+        }
+    }
+}
+
+.feedback__img {
+    width: 50%;
+    padding: 133px 0;
+
+    background: url("../img/feedback/post-big.svg");
+    background-size: cover;
+
+    & img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.feedback__title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+
+    margin-bottom: 32px;
+}
+
+.feedback__text {
+    font-size: 20px;
+    line-height: 2;
+    color: #fff;
+
+    margin-bottom: 50px;
+}
+
+input {
+    padding: 18px 40px;
+    border-radius: 16px;
+    background-color: rgba($color: #fff, $alpha: .18);
+    border: none;
+    outline: none;
+    color: #707070;
+    font-size: 22px;
+}
+
+.email {
+    width: 500px;
+    margin-bottom: 60px;
+}
+
+.submit {
+    cursor: pointer;
+    transition: color .2s linear;
+
+    &:hover {
+        color: #fff;
+    }
+}

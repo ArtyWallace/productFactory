@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+pre, p, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
 }
@@ -50,11 +50,18 @@ body {
 @import "blocks/header.scss";
 @import "blocks/nav.scss";
 @import "blocks/intro.scss";
+@import "blocks/btn.scss";
 @import "blocks/about.scss";
 @import "blocks/social.scss";
 @import "blocks/course.scss";
 @import "blocks/sessions.scss";
 @import "blocks/masters.scss";
 @import "blocks/faq.scss";
+@import "blocks/fee.scss";
+@import "blocks/feedback.scss";
+@import "blocks/projects.scss";
+@import "blocks/slider.scss";
+@import "blocks/shedule.scss";
+@import "blocks/footer.scss";
 
 

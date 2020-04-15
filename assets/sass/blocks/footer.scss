@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 120px 0;
+
+    & .social {
+        width: 200px;
+    }
+}
+
+.footer__item {
+    width: 30%;
+}
+
+.footer__logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer__contact {
+    font-size: 20px;
+    text-align: right;
+}

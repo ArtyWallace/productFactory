@@ -1,0 +1,80 @@
+.fee {
+    width: 100%;
+
+    padding: 50px 110px;
+    border-radius: 30px;
+    box-shadow: 50px 50px 99px rgba(0, 0, 0, .19);
+    text-align: center;
+    margin-bottom: 170px;
+
+    & span {
+        color: #707070;
+        font-size: 18px;
+    }
+}
+
+.fee__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid rgba($color: #000000, $alpha: .1);
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+
+.fee__achiv {
+    width: 55%;
+
+    & ul {
+        list-style: none;
+        padding-left: 0;
+
+        & li {
+            background: url("../img/fee/li-img.svg") no-repeat left center;
+            background-size: contain;
+            margin: 55px 0;
+            padding-left: 50px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.fee__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.fee__info {
+    width: 40%;
+    padding: 50px 75px;
+    background-color: #000;
+    border-radius: 25px;
+
+    color: #fff;
+    text-align: center;
+}
+
+.fee__sup {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.fee__sub {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+
+.fee__text {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.fee__btn {
+    padding: 15px 50px;
+}

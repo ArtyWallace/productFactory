@@ -1,0 +1,58 @@
+.shedule {
+    width: 100%;
+    background-color: #fafafa;
+
+    padding: 117px 0;
+}
+
+.shedule__top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 80px;
+
+    & div {
+        font-size: 29px;
+        font-weight: 700;
+    }
+}
+
+.shedule__mid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    & div {
+        padding: 43px 123px;
+        background-color: #fff;
+        border-radius: 26px;
+
+        font-size: 45px;
+        font-weight: 700;
+    }
+}
+
+.shedule__bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    & div {
+        font-size: 33px;
+        font-weight: 700;
+    }
+
+    & div:first-child {
+        color: #fff;
+
+        background-color: #000;
+        padding: 12px 18px;
+        border-radius: 16px;
+    }
+}
+
+.shedule__btn {
+    padding: 17px 56px;
+
+}

@@ -8,4 +8,10 @@
 .nav__link {
     color: #fff;
     font-size: 19px;
+
+    transition: color .2s linear;
+
+    &:hover {
+        color: #707070;
+    }
 }
