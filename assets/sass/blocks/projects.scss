@@ -86,3 +86,106 @@
         box-shadow: 50px 50px 99px rgba($color: #2C2C2C, $alpha: .1);
     }
 }
+
+@media (max-width: 1024px) {
+    .projects__inner {
+        margin-bottom: 30px;
+    }
+
+    .project {
+        padding-bottom: 10px;
+    }
+
+    .project__info {
+        width: 40%;
+
+        & ul {
+            margin-bottom: 40px;
+
+            & li {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .project__title {
+        font-size: 25px;
+    }
+
+    .project__text {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 40px;
+    }
+
+    .project__img {
+        width: 60%;
+
+        &-bg {
+            height: 50%;
+            margin-right: 0;
+
+            &:after {
+                height: 150%;
+            }
+        }
+    }
+
+    .project__count {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project__text {
+        font-size: 15px;
+    }
+
+    .project__info {
+        width: 40%;
+
+        & ul {
+            margin-bottom: 20px;
+
+            & li {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .project__count {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 414px) {
+    .project {
+        flex-direction: column-reverse;
+    }
+
+    .project__img {
+        width: 100%;
+        height: 360px;
+    }
+
+    .project__img-bg {
+        margin: 0 auto;
+        height: 40%;
+
+            &:after {
+                height: 150%;
+            }
+    }
+
+    .project__info {
+        width: 100%;
+
+        & ul {
+            margin-bottom: 20px;
+
+            & li {
+                font-size: 12px;
+            }
+        }
+    }
+}

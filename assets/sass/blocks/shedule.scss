@@ -12,9 +12,17 @@
 
     margin-bottom: 80px;
 
+    & img {
+        width: 50%;
+    }
+
     & div {
         font-size: 29px;
         font-weight: 700;
+
+        &:last-child {
+            text-align: right;
+        }
     }
 }
 
@@ -55,4 +63,61 @@
 .shedule__btn {
     padding: 17px 56px;
 
+}
+
+@media (max-width: 1400px) {
+    .shedule {
+        padding: 50px 0;
+    }
+
+    .shedule__top {
+        margin-bottom: 40px;
+    }
+
+    .shedule__mid {
+        margin-bottom: 50px;
+
+        & div {
+            padding: 33px 50px;
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .shedule__mid {
+        & div {
+            font-size: 23px;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    .shedule__top {
+        & div {
+            font-size: 20px;
+        }
+    }
+
+    .shedule__mid {
+        & div {
+            font-size: 15px;
+            padding: 15px;
+        }
+    }
+
+    .shedule__bottom {
+        & div {
+            font-size: 17px;
+        }
+    
+        & div:first-child {
+            padding: 10px 10px;
+        }
+    }
+
+    .shedule__btn {
+        padding: 15px 18px;
+    
+    }
 }

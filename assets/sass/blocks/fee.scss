@@ -62,6 +62,8 @@
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 28px;
+
+    text-decoration: line-through;
 }
 
 .fee__sub {
@@ -77,4 +79,59 @@
 
 .fee__btn {
     padding: 15px 50px;
+}
+
+@media (max-width: 1024px) {
+    .fee {
+        padding: 50px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fee__title {
+        font-size: 20px;
+    }
+
+    .fee__achiv {
+    
+        & ul {
+            font-size: 13px;
+    
+            & li {
+                margin: 40px 0;
+                padding-left: 40px;
+            }
+        }
+    }
+
+    .fee__info {
+        padding: 30px 35px;
+    }
+}
+
+@media (max-width: 414px) {
+    .fee {
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .fee__inner {
+        flex-direction: column-reverse;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .fee__achiv {
+        width: 100%;
+
+        & ul {
+            font-size: 12px;
+        }
+    }
+
+    .fee__info {
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
 }

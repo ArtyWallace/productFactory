@@ -23,3 +23,36 @@
     font-size: 20px;
     text-align: right;
 }
+
+@media (max-width: 1024px) {
+    .footer {
+        padding: 60px 0;
+
+        & .social {
+            width: 150px;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    .footer {
+        padding: 20px 0;
+        flex-direction: column;
+
+        & .social {
+            margin: 0 auto 15px;
+        }
+    }
+
+    .footer__item {
+        width: 100%;
+    }
+
+    .footer__logo {
+        margin-bottom: 15px;
+    }
+
+    .footer__contact {
+        text-align: center;
+    }
+}

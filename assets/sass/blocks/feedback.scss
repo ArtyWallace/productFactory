@@ -59,6 +59,14 @@
     margin-bottom: 50px;
 }
 
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
 input {
     padding: 18px 40px;
     border-radius: 16px;
@@ -67,11 +75,11 @@ input {
     outline: none;
     color: #707070;
     font-size: 22px;
-}
-
-.email {
-    width: 500px;
-    margin-bottom: 60px;
+    
+    &:first-child {
+        width: 100%;
+        margin-right: 10px;
+    }
 }
 
 .submit {
@@ -80,5 +88,49 @@ input {
 
     &:hover {
         color: #fff;
+    }
+}
+
+@media (max-width: 1024px) {
+    .email {
+        font-size: 15px;
+        padding: 18px 20px;
+    }
+
+    .submit {
+        font-size: 18px;
+        padding: 18px 20px;
+    }
+
+    .feedback__info {
+        padding: 55px 0;
+
+        & ul {
+            font-size: 15px;
+        }
+    }
+
+    .feedback__text {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .feedback {
+        margin-bottom: 40px;
+    }
+
+    .feedback__img {
+        display: none;
+    }
+
+    .feedback__info {
+        width: 100%;
+
+        background: url("../img/feedback/post-big.svg");
+
+        & ul {
+            font-size: 13px;
+        }
     }
 }

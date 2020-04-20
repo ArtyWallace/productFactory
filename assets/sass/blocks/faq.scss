@@ -91,3 +91,41 @@
     border-radius: 26px;
     box-shadow: 10px 10px 99px rgba(211, 211, 211, .1);
 }
+
+@media (max-width: 1024px) {
+    .faq {
+        margin-bottom: 80px;
+    }
+
+    .faq__item {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .faq__title {
+        font-size: 15px;
+    }
+
+    .answer__text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 414px) {
+    .quest {
+        padding: 15px;
+    }
+
+    .faq__title {
+        width: 95%;
+
+        &:after {
+            right: -15px;
+        }
+    }
+
+    .answer__text {
+        padding: 15px;
+    }
+}

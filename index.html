@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product factory - learn how design thinking!"/>
+    <meta name="keywords" content="Design, business vision and marketing"/>
+    <meta name="google" content="notranslate"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <!-- Slick slider -->
@@ -14,19 +24,21 @@
 <body>
 
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__inner">
                 <img src="assets/img/header/logo.svg" alt="logo" class="header__logo">
-                <nav class="nav">
-                    <a href="#" class="nav__link">Projects</a>
-                    <a href="#" class="nav__link">Partners</a>
-                    <a href="#" class="nav__link">FAQ</a>
-                    <a href="#" class="nav__link">Masters</a>
-                    <a href="#" class="nav__link">Classes</a>
-                    <a href="#" class="nav__link">Course Experience</a>
-                    <a href="#" class="nav__link">About us</a>
+                <nav class="nav" id="nav">
+                    <a href="#projects" class="nav__link">Projects</a>
+                    <a href="#sessions" class="nav__link">Sessions</a>
+                    <a href="#faq" class="nav__link">FAQ</a>
+                    <a href="#masters" class="nav__link">Masters</a>
+                    <a href="#course" class="nav__link">Course Experience</a>
+                    <a href="#feedback" class="nav__link">Feedback</a>
+                    <a href="#about" class="nav__link">About us</a>
                 </nav>
+                <img src="assets/img/header/menu.svg" alt="" class="menu" id="menu">
+                <img src="assets/img/header/close.svg" alt="" class="close" id="close">
                 <a href="#" class="header__btn">Register</a>
             </div>
         </div>
@@ -34,7 +46,7 @@
     <!-- /.header -->
 
     <!-- Intro -->
-    <div class="intro">
+    <div class="intro" id="intro">
         <div class="container">
             <div class="intro__inner">
                 <div class="intro__info">
@@ -54,7 +66,7 @@
     <!-- /.intro -->
 
     <!-- About -->
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="about__inner">
                 <div class="about__top">
@@ -86,7 +98,7 @@
 
     <!-- Course -->
     <div class="container">
-        <div class="course">
+        <div class="course" id="course">
             <div class="title">
                 <div class="sup">Experience</div>
                 <div class="sub">Course Experience</div>
@@ -110,7 +122,7 @@
     <!-- /.experiens -->
     
     <!-- Sessions -->
-    <div class="container">
+    <div class="container" id="sessions">
         <div class="title">
             <div class="sup">Sessions</div>
             <div class="sub">Sessions</div>
@@ -385,7 +397,7 @@
 
     <!-- Masters -->
     <div class="container">
-        <div class="masters">
+        <div class="masters" id="masters">
             <div class="title">
                 <div class="sup">Masters</div>
                 <div class="sub">Masters</div>
@@ -425,7 +437,7 @@
                         </div>
                     </div>
                     <div class="masters__name">Kianoosh Keyghobadi</div>
-                    <div class="masters__prof">Product Manager at Digikala</div>
+                    <div class="masters__prof">Product Manager</div>
                 </div>
                 <div class="masters__item">
                     <div class="masters__img">
@@ -443,7 +455,7 @@
                         </div>
                     </div>
                     <div class="masters__name">Hossein Vahdani</div>
-                    <div class="masters__prof">Content marketing specialist</div>
+                    <div class="masters__prof">Content specialist</div>
                 </div>
                 <div class="masters__item">
                     <div class="masters__img">
@@ -577,7 +589,7 @@
     <!-- /.masters -->
 
     <!-- FAQ -->
-    <div class="container">
+    <div class="container" id="faq">
         <div class="title">
             <div class="sup">FAQ</div>
             <div class="sub">Frequently Asked Questions</div>
@@ -639,7 +651,7 @@
 
     <!-- Fee -->
     <div class="container">
-        <div class="fee">
+        <div class="fee" id="fee">
             <div class="title">
                 <div class="sup">Course fee</div>
                 <div class="sub">Course fee</div>
@@ -667,13 +679,13 @@
     <!-- /.fee -->
 
     <!-- Feedback -->
-    <div class="feedback">
+    <div class="feedback" id="feedback">
         <div class="container">
             <div class="feedback__inner">
                 <div class="feedback__info">
                     <div class="feedback__title">Request a list of headings</div>
                     <div class="feedback__text">Please enter your email address to receive course titles, the topics will be emailed to you.</div>
-                    <form action="">
+                    <form>
                         <input type="email" class="email" placeholder="example@example.com">
                         <input type="submit" class="submit" value="Confirm">
                     </form>
@@ -690,7 +702,7 @@
     <!-- /.feedback -->
 
     <!-- Projects -->
-    <div class="container">
+    <div class="container" id="projects">
         
             <div class="title">
                 <div class="sup">Projects</div>
@@ -775,7 +787,7 @@
     </div>
     <!-- /.projects -->
     
-    <div class="shedule">
+    <div class="shedule" id="shedule">
         <div class="container">
             <div class="title">
                 <div class="sup">Shedule</div>
@@ -787,8 +799,8 @@
                 <div>End of course</div>
             </div>
             <div class="shedule__mid">
-                <div><pre>2019  /  11  /  11</pre></div>
-                <div><pre>2020  /  03  /  20</pre></div>
+                <div><pre>2019 / 11 / 11</pre></div>
+                <div><pre>2020 / 03 / 20</pre></div>
             </div>
             <div class="shedule__bottom">
                 <div>11</div>
@@ -813,13 +825,14 @@
                 <img src="assets/img/footer/footer-logo.png" alt="" class="footer__logo">
             </div>
             <div class="footer__item">
-                <div class="footer__contact" >Contact Number: 0912-1234567</div>
+                <div class="footer__contact" >Contact Number: <a href="tel:+0912-1234567">0912-1234567</a></div>
             </div>
         </footer>
     </div>
     <!-- /.footer -->
 
 
+    <script src="assets/js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/slick.js"></script>

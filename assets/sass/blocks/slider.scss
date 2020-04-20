@@ -13,6 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: transform .2s linear;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 .slick__prev {
@@ -35,4 +41,15 @@
 
 .slick-slide {
     outline: none;
+}
+
+@media (max-width: 1024px) {
+    .slick__prev,
+    .slick__next {
+        top: 150%;
+        height: 50px;
+        width: 50px;
+
+        border: 1px solid #000;
+    }
 }

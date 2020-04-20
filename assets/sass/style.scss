@@ -46,6 +46,52 @@ body {
     transform: translateY(-200%);
 }
 
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px
+    }
+
+    .sup {
+        font-size: 70px;
+    }
+
+    .sub {
+        transform: translateY(-150%);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 680px;
+    }
+
+    .sup {
+        font-size: 50px;
+    }
+
+    .sub {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container {
+        max-width: 370px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px;
+    }
+}
+
 
 @import "blocks/header.scss";
 @import "blocks/nav.scss";

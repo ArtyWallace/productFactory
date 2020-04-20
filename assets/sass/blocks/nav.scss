@@ -1,17 +1,53 @@
 .nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .nav__link {
     color: #fff;
     font-size: 19px;
+    line-height: 2;
+    margin-left: 35px;
 
     transition: color .2s linear;
 
     &:hover {
         color: #707070;
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.menu {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.nav__hidden {
+
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .close {
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
