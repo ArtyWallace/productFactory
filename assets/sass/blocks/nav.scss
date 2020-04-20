@@ -32,7 +32,12 @@
 }
 
 .nav__hidden {
-
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
@@ -49,5 +54,16 @@
     .close {
         margin-right: 20px;
         margin-left: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .nav__link {
+        font-size: 14px;
+        margin-left: 15px;
+
+        &:nth-child(5) {
+            margin-left: 0;
+        }
     }
 }

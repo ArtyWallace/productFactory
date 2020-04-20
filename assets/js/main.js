@@ -1,7 +1,7 @@
 let anchors = document.querySelectorAll("a[href*='#']"),
     menu = document.querySelector("#menu"),
     close = document.querySelector("#close"),
-    nav = document.querySelector("#nav");
+    navHidden = document.querySelector("#navHidden");
 
 
 for (let anchor of anchors) {
@@ -18,13 +18,13 @@ for (let anchor of anchors) {
 }
 
 menu.addEventListener("click", () => {
-  nav.style.display = "flex";
+  navHidden.style.display = "flex";
   menu.style.display = "none";
   close.style.display = "block";
 });
 
 close.addEventListener("click", () => {
-  nav.style.display = "none";
+  navHidden.style.display = "none";
   close.style.display = "none";
   menu.style.display = "block";
 
